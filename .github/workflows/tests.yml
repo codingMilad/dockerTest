@@ -32,5 +32,5 @@ jobs:
           node-version: "24"
 
       - name: Run ${{ matrix.script }}
-        working-directory: tests
+        working-directory: exercises-docker-basics/tests
         run: bash ${{ matrix.script }}
